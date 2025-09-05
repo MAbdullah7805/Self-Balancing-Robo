@@ -6,9 +6,9 @@ It uses mpu6050’s raw data, filters it, and calculates real angles. The error 
 And then the story begins to tune the PID constants. This process is very crucial and takes too much time. It took me about 2-3 weeks to stabilize it.<br>
 Required components:<br>
 </t> i)	A microcontroller, I used ESP32.<br>
-<\t> ii)	MPU6050 6-axis Gyro + Accelero.<br>
-<\t> iii)	DC gear Motors.<br>
-<\t> iv)	L298N Motor driver.<br>
-<\t> v)	18650 batteries + BMS.<br>
-<\t> vi)	Frame (build your one or find mine on GitHub).<br>
-<\t> vii)	Spacers for stack building.<br>
+</t> ii)	MPU6050 6-axis Gyro + Accelero.<br>
+</t> iii)	DC gear Motors.<br>
+</t> iv)	L298N Motor driver.<br>
+</t> v)	18650 batteries + BMS.<br>
+</t> vi)	Frame (build your one or find mine on GitHub).<br>
+</t> vii)	Spacers for stack building.<br>
