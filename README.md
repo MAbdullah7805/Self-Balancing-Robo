@@ -5,7 +5,7 @@ It works on the principle of an Inverted Pendulum. In my words, the principle sa
 It uses mpu6050’s raw data, filters it, and calculates real angles. The error is calculated using the actual angle and the desired angle. A PID controller is used to stabilize it. The PID controller generates its output, and then this output is used as the PWM signal for the motors. And this keeps running in a loop using a feedback loop. A feedback loop is a system where the output of a process is fed back into the input, influencing future outputs.<br>
 And then the story begins to tune the PID constants. This process is very crucial and takes too much time. It took me about 2-3 weeks to stabilize it.<br>
 Required components:<br>
-<\t> i)	A microcontroller, I used ESP32.<br>
+</t> i)	A microcontroller, I used ESP32.<br>
 <\t> ii)	MPU6050 6-axis Gyro + Accelero.<br>
 <\t> iii)	DC gear Motors.<br>
 <\t> iv)	L298N Motor driver.<br>
